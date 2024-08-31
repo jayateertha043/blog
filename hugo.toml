@@ -1,4 +1,4 @@
-baseURL = 'https://localhost:1313/'
+baseURL = 'https://blog.jayateerthag.in/'
 languageCode = 'en-us'
 title = "Jayateertha G's Blog"
 theme = 'binario'
