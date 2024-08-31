@@ -3,7 +3,6 @@ title: "Exposing cybercrime.gov.in Phishing: The Browser-In-The-Browser Scam"
 author: "Jayateertha Guruprasad"
 date: 2024-07-29T07:15:55.941Z
 lastmod: 2024-08-31T13:13:07+05:30
-
 description: ""
 
 subtitle: ""
@@ -92,9 +91,9 @@ There are several ways to calculate favicon hash, easiest is to use [https://fav
 5. [http://193.187.175.127/](http://193.187.175.127/)
 6. [https://45.152.84.47/](https://45.152.84.47/)
 
-**Finally, shared the list of malicious IP’s with required proofs for blocking those IP’s to**[**Subash Jaganathan**](https://www.linkedin.com/in/subash-j/?originalSubdomain=in)**(**[**@subash_0fficial**](https://x.com/subash_0fficial?lang=en)**), who is a Cyber Crime Investigator & has been assisting Cyber Crime Wing, Tamil Nadu in various cases.**
+**Finally, shared the list of malicious IP’s with required proofs for blocking those IP’s to **[**Subash Jaganathan**](https://www.linkedin.com/in/subash-j/?originalSubdomain=in)**(**[**@subash_0fficial**](https://x.com/subash_0fficial?lang=en)**), who is a Cyber Crime Investigator & has been assisting Cyber Crime Wing, Tamil Nadu in various cases.**
 
-#### Liked my article ? Follow me on [LinkedIn](https://www.linkedin.com/in/jayateerthag/), Twitter ([@jayateerthaG](https://twitter.com/jayateerthag)), and [Medium](https://jayateerthag.medium.com/) for more content about bugbounty, Infosec, cybersecurity and hacking.
+### Liked my article ? Follow me on [LinkedIn](https://www.linkedin.com/in/jayateerthag/), Twitter ([@jayateerthaG](https://twitter.com/jayateerthag)), and [Medium](https://jayateerthag.medium.com/) for more content about bugbounty, Infosec, cybersecurity and hacking.
 
 * * *
 Written on July 29, 2024 by Jayateertha Guruprasad.

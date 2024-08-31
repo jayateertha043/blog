@@ -1,0 +1,61 @@
+baseURL : 'https://blog.jayateerthag.in/'
+languageCode: 'en-us'
+title: "Jayateertha G's Blog"
+description: "Jayateertha Guruprasad is a Computer Science Engineer passionate about learning latest tech,developing applications & BugBounties!!!"
+theme: ['PaperMod']
+copyright: "© [JayateerthaG](https://jayateerthag.in)"
+enableEmoji: true
+mainsections: ["post"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+menu:
+  main:
+    - name: Search
+      url: search/
+      weight: 5
+    - name: Portfolio
+      url: https://jayateerthag.in
+      weight: 5
+
+params:
+  # defaultTheme: light
+  defaultTheme: dark
+  env: production
+  # defaultTheme: auto # to switch between dark or light according to browser theme
+  disablethemetoggle: false
+  ShowRssButtonInSectionTermList: true
+  ShowPageNums: true
+  author: Jayateertha Guruprasad
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  images: ["/img/avatar.jpg"]
+  profileMode:
+    enabled: false
+    imageUrl: "/img/avatar.jpg"
+  homeInfoParams:
+    Title: JayateerthaG's Blog 📙!
+    Content: Jayateertha Guruprasad is a Computer Science Engineer passionate about learning latest tech,developing applications & BugBounties!!!
+  socialIcons: # optional
+    - name: "twitter"
+      url: "https://x.com/jayateerthaG"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/jayateerthag/"
+    - name: "medium"
+      url: "https://jayateerthag.medium.com/"
+    - name: "github"
+      url: "https://github.com/jayateertha043/"
+    - name: "email"
+      url: "mailto://jayateertha043@gmail.com"

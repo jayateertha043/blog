@@ -1,7 +1,7 @@
 baseURL = 'https://blog.jayateerthag.in/'
 languageCode = 'en-us'
 title = "Jayateertha G's Blog"
-theme = 'binario'
+theme = 'PaperMod'
 
 [frontmatter]
   date = [':filename', ':default']
@@ -37,6 +37,19 @@ theme = 'binario'
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path. Optional
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config. Optional
   hideNoPostsWarning = false # Don't show no posts empty state warning in main page, if true
+  email = "jayateertha043@gmail.com"
+  #facebook = "jayateertha043"
+  twitter = "jayateerthag"
+  #instagram = "jayateertha043"
+  linkedin = "jayateerthag"
+  github = "jayateertha043"
+  medium = "jayateerthag"
+  rss=true
+  ShowShareButtons = true
+  avatar = 'jayateertha043@gmail.com'                 # gravatar email or image url
+  name = 'Jayateertha Guruprasad'
+  bio = 'Jayateertha Guruprasad is a Computer Science Engineer passionate about learning latest tech,developing applications & BugBounties!!!'
+ 
 [Params.Meta]
   favicon = true
 [Params.Entry]
@@ -78,4 +91,4 @@ theme = 'binario'
     notAlternative = true
 
 [outputs]
-  home = ["HTML"]
+  home = ["HTML","JSON"]
