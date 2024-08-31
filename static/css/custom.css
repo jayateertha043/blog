@@ -1,0 +1,16 @@
+article > div > p > img {
+	max-width: 50%;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    aspect-ratio: auto 700 / 415;
+    display: block;
+    margin-bottom: 1.5rem;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    cursor: zoom-in;
+}
+article > div > p > img:hover {
+	transform: scale(1.7);
+}

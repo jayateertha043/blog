@@ -1,0 +1,81 @@
+baseURL = 'https://localhost:1313/'
+languageCode = 'en-us'
+title = "Jayateertha G's Blog"
+theme = 'binario'
+
+[frontmatter]
+  date = [':filename', ':default']
+
+
+[services.googleAnalytics]
+  ID = "" # Enable Google Analytics by entering your tracking ID
+
+[Author] # Used in authorbox
+  name = "Jayateertha Guruprasad"
+  bio = "Jayateertha Guruprasad is a Computer Science Engineer passionate about learning latest tech,developing applications & BugBounties!!!"
+  avatar = "img/avatar.jpg"
+  
+[Params]
+  description = "Jayateertha Guruprasad is a Computer Science Engineer passionate about learning latest tech,developing applications & BugBounties!!!"
+  copyright = "Jayateertha Guruprasad" # Copyright holder, otherwise will use .Site.Title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  favicon = true
+  twitter_cards = true # Enable Twitter Cards if true
+  columns = 3 # Set the number of cards columns. Possible values: 1, 2, 3
+  mainSections = ["post"] # Set main page sections
+  dateFormat = "January 02, 2006" # Change the format of dates
+  colorTheme = "dark-green" # dark-green, dark-blue, dark-red, dark-violet
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+  mainMenuAlignment = "right" # Align main menu (desktop version) to the right side
+  authorbox = true # Show authorbox at bottom of single pages if true
+  comments = false # Enable comments for all site pages
+  related = true # Enable Related content for single pages
+  relatedMax = 5 # Set the maximum number of elements that can be displayed in related block. Optional
+  mathjax = false # Enable MathJax for all site pages
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path. Optional
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config. Optional
+  hideNoPostsWarning = false # Don't show no posts empty state warning in main page, if true
+[Params.Meta]
+  favicon = true
+[Params.Entry]
+  meta = ["date", "categories", "tags"] # Enable meta fields in given order
+  toc = false # Enable Table of Contents
+  tocOpen = false # Open Table of Contents block. Optional
+  
+[Params.Featured]
+  previewOnly = false # Show only preview featured image
+  
+[Params.Breadcrumb]
+  enable = true # Enable breadcrumb block globally
+  homeText = "Jayateertha G" # Home node text
+
+[Params.Social]
+  email = "jayateertha043@gmail.com"
+  #facebook = "jayateertha043"
+  twitter = "jayateerthag"
+  #instagram = "jayateertha043"
+  linkedin = "jayateerthag"
+  github = "jayateertha043"
+  medium = "jayateerthag"
+  
+[Params.Share] # Entry Share block
+  facebook = true
+  twitter = true
+  reddit = true
+  telegram = true
+  linkedin = true
+  # vk = true
+  # pocket = true
+  # pinterest = true
+
+[outputFormats]
+  [outputFormats.MANIFEST]
+    mediaType = "application/json"
+    baseName = "manifest"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML"]
