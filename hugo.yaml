@@ -7,6 +7,12 @@ copyright: "© [JayateerthaG](https://jayateerthag.in)"
 enableEmoji: true
 mainsections: ["post"]
 
+frontmatter:
+  date:
+    - :filename
+    - :default
+
+
 outputs:
   home:
     - HTML
