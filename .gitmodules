@@ -3,5 +3,5 @@
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
 
 [submodule "themes/binario"]
-	path = themes/ananke
+	path = themes/binario
 	url = https://github.com/Vimux/Binario.git
