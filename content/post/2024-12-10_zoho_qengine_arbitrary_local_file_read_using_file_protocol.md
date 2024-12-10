@@ -2,6 +2,7 @@
 title = 'Zoho QEngine: Arbitrary File Read'
 date = 2024-12-10T12:43:15+05:30
 draft = false
+aliases = ['Zoho-QEngine-Arbitrary-File-Read']
 +++
 
 [**Zoho QEngine**](https://www.zoho.com/qengine/) is a test automation software to test your code on various devices & browsers before they get released.
