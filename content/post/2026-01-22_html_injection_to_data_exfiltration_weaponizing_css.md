@@ -207,3 +207,4 @@ This rule explicitly targets the **#secret** node, forces its **font-family** to
 > **Show the impact, tell the story, drop the report — then log off, grab a pillow, and enjoy sleeping on a pile of bounty 💰**
 
 **Liked my article ? Follow me on** [**LinkedIn**](https://www.linkedin.com/in/jayateerthag/)**, Twitter (**[**@jayateerthaG**](https://twitter.com/jayateerthag)**), and** [**Medium**](https://medium.com/) **for more content about bugbounty, Infosec, cybersecurity and hacking.**
+
